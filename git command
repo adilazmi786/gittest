@@ -7,5 +7,7 @@ Push the code in remote directory=> git push -u origin "add repositry name here"
 Pull from remote => git pull origin master(repo name) 
 Rebase =>  git rebase master(repo name)
 Push code force fully => git push -f origin master(repo name)
+Checkout branch => git checkout -b master (if branch is created locally then remove -b)
+Merge branch => git branch master(repo name)
 
 
