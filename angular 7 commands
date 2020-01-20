@@ -1,0 +1,44 @@
+npm install -g @angular/cli //command to install angular 7
+ng new my-dream-app // name of the project
+cd my-dream-app
+npm install
+ng serve     // run application
+code .      //open folder in vs code
+ng serve --port 4205 // run application with customized port
+ng generate component xyz
+
+
+
+=====================================================
+
+e2e/ => end to end test folder. Mainly e2e is used for integration testing and helps ensure the application works fine.
+node modules => The npm package installed is node_modules. You can open the folder and see the packages available.
+src => This folder is where we will work on the project using Angular 7.Inside src/ you will app/ folder created during the project setup and holds all the required files required for the project.
+src/app =>
+src/assets =>
+src/environments =>
+src/favicon =>
+src/index.html =>
+src/main.ts =>
+src/polyfills.ts =>
+src/style.css =>
+.editorconfig => configuration file for editor
+.gitignore => has to be commited in to repository in order to shaare the ignore rules with any other users that clone the repository
+angular.json => It basically holds the project name, version of cli, etc.
+package.json => The package.json file tells which libraries will be installed into node_modules when you run npm install.
+tsconfig.json => This basically contains the compiler options required during compilation.
+tslint.json => This is the config file with rules to be considered while compiling.
+browserlist =>
+karma.confjs =>
+=========================================================================================
+@NgModule is imported from @angular/core and it has object with following properties −
+
+Declarations − In declarations, the reference to the components is stored. The App component is the default component that is created whenever a new project is initiated. We will learn about creating new components in a different section.
+
+Imports − This will have the modules imported as shown above. At present, BrowserModule is part of the imports which is imported from @angular/platform-browser. There is also routing module added AppRoutingModule.
+
+Providers − This will have reference to the services created. The service will be discussed in a subsequent chapter.
+
+Bootstrap − This has reference to the default component created, i.e., AppComponent.
+
+app.component.css − You can write your css over here. Right now, we have added the background color to the div as shown below.
