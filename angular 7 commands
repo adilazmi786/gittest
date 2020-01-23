@@ -7,9 +7,18 @@ code .      //open folder in vs code
 ng serve --port 4205 // run application with customized port
 ng generate component xyz
 ng g directive changeText
+ng g service myservice
+ng g pipe new-pipe
+ng g module my-module
 
 
 
+Command for Angular Update
+In case you want to update your application and its dependencies, you can use the following command −
+
+ng update @angular/cli @angular/core
+It will update core framework to the recent version, i.e., Angular 7 and also angular-cli. 
+You can use above command with following options −
 =====================================================
 
 e2e/ => end to end test folder. Mainly e2e is used for integration testing and helps ensure the application works fine.
@@ -114,6 +123,16 @@ Slicepipe
 
 Routing =>
 Routing basically means navigating between pages.
+
+Services =>
+We might come across a situation where we need some code to be used everywhere on the page.
+
+Http Client =>
+HttpClient will help us fetch external data, post to it, etc. We need to import the http module to make use of the http service. 
+
+========================================Forms===========================================
+Template driven form => With a template driven form, most of the work is done in the template.
+Model driven form => With the model driven form, most of the work is done in the component class.
 ========================================workflow========================================
 
 When we hit the url in the "http://localhost:4200/" browser, it first executes the index.html
