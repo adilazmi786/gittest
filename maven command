@@ -1,0 +1,6 @@
+create new project =>
+mvn archetype:generate
+
+import project in eclipse =>
+mvn eclipse:eclipse
+
