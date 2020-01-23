@@ -1,3 +1,5 @@
+create the repo locally using => git checkout -b master (if branch is created locally then remove -b)
+initiate for staging => git init
 To add latest changes =>  git add .
 To commit changes locally=> git commit -m "message"
 Get the remote access of repository => git remote add origin "add remote path here"  (To avoid this issue fatal: 'master' does not appear to be a git repository
