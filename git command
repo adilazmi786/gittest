@@ -1,3 +1,5 @@
+Add readme file using => echo "# project-name" >> README.md
+
 create the repo locally using => git checkout -b master (if branch is created locally then remove -b)
 initiate for staging => git init
 To add latest changes =>  git add .
