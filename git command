@@ -15,3 +15,16 @@ Checkout branch => git checkout -b master (if branch is created locally then rem
 Merge branch => git branch master(repo name)
 
 
+You can see all the branches created by using :
+$ git branch -a
+
+Remove files from the tree
+Scenarion 1: make a commit and notice a stray directory or file that shouldn’t be in the repo. First, add the file to .gitignore, and then:
+$ git rm --cached <file-name>
+# Globbing is possible as usual
+$ git rm --cached *.log
+
+
+You can see all the branches created by using :
+
+$ git branch -a
