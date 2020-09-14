@@ -1,0 +1,6 @@
+export database schema
+
+pg_dump -U postgres -d crash -h localhost -p 5432 -n driver_main -f D:/test2.sql
+
+import database schema
+\i file path
